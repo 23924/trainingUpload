@@ -1,0 +1,108 @@
+ @import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Aref Ruqaa', serif;
+}
+
+html{
+background-image: url(backgroundd.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+color: black;
+
+/*background-color: pink;*/
+}
+
+#wrapper{
+  width: 65%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: relative;
+}
+
+body{
+    background-color: rgba(44, 77, 200, 0.2);
+}
+
+h1{
+}
+
+h1, h3{
+  font-family: verdana;
+}
+
+header{
+    padding: .5em 2%;
+    margin: 0;
+    background-color: rgba(180, 220, 255, 0.5);
+}
+
+.half{
+  width: 50%;
+  float: left;
+  padding: 0 2%;
+  box-sizing: border-box;
+  border-left: 5px solid #47A;
+}
+
+.derde{
+  width: 33.33%;
+  float: left;
+  padding: 0 2%;
+  box-sizing: border-box;
+  border-left: 5px solid #47A;
+}
+
+.derde:first-child{
+  border-left: 0;
+}
+
+.half:first-child{
+  border-left: 0;
+}
+
+.vijfde:first-child{
+  border-left: 0;
+}
+
+.vijfde{
+  width: 20%;
+  float: left;
+  border-left: 5px solid #47A;
+  box-sizing: border-box;
+  padding: .3em;
+}
+
+#apart{
+  background-color: #47a;
+  color: #fff;
+  padding: 25px;
+  width: 180px;
+  height: 180px;
+  border-radius: 200px;
+  position: absolute;
+  left: -70px;
+  bottom: -88px;
+  box-sizing: content-box;
+  transform: rotate(28deg);
+}
+
+.rij{
+  overflow: auto;
+  /*geeft de rij een onzichtbare balk aan de bovenkant*/
+}
+
+footer{
+  color: white;
+  text-align: center;
+  font-size:0.8em;
+}
+
+#koptekst{
+  margin: 4px;
+  padding: 1em;
+}
